@@ -17,6 +17,7 @@ By now, many people are familiar with tools like Apple’s Visual Look Up (AVLU)
    - Attach the AdministratorAccess policy to the user to grant full access to AWS services.
    - Before moving on to coding, create an Access Key and Secret Access Key for the user. These keys are essential for remote access to AWS.
    - Using the Access Key and the Secret Access Key, connect to AWS from your local computer via Terminal. The configuration process will look this. (see image below)
+     
   ![Image depicting the usage of an Access Key, for local configuration](image_label_screen_shots/configure_locally.png)
 
 3. Write and Configure the Python Script:
@@ -24,7 +25,9 @@ By now, many people are familiar with tools like Apple’s Visual Look Up (AVLU)
    - To conduct the task, you'll need the following libraries: boto3, matplotlib, PIL, BytesIO.
    - Create a detect_labels function. This function retrieves the photo from the S3 bucket and uses Amazon Rekognition to detect labels in the image.
    - The code will look like this:
+   - 
      ![Image of Python script for a label generator](image_label_screen_shots/final_code.png)
      
 4. Run the Script: After running the script, the result will display the labels describing items found in the image you initially uploaded to the S3 bucket.
+5. 
 ![an image with labels describing items within](image_label_screen_shots/labled_images.png)
