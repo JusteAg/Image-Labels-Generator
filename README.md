@@ -29,5 +29,5 @@ By now, many people are familiar with tools like Apple’s Visual Look Up (AVLU)
      ![Image of Python script for a label generator](image_label_screen_shots/final_code.png)
      
 4. Run the Script: After running the script, the result will display the labels describing items found in the image you initially uploaded to the S3 bucket.
-5. 
+ 
 ![an image with labels describing items within](image_label_screen_shots/labled_images.png)
